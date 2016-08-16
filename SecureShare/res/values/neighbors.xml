@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="node_names">
+			<item>Node 1</item>
+			<item>Node 2</item>
+			<item>Node 3</item>
+			<item>Node 4</item>
+			<item>Node 5</item>
+			<item>Node 6</item>
+			<item>Node 7</item>
+	</string-array>
+	
+	<string-array name="node_addresses">
+			<item>192.168.0.1</item>
+			<item>192.168.0.2</item>
+			<item>192.168.0.3</item>
+			<item>192.168.0.4</item>
+			<item>192.168.0.5</item>
+			<item>192.168.0.6</item>
+			<item>192.168.0.7</item>
+	</string-array>
+</resources>

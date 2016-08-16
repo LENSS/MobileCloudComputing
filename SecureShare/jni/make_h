@@ -1,0 +1,4 @@
+cd ../bin
+javah -jni edu.nps.secureshare.reedsolomon.ReedSolomon
+mv edu_nps_secureshare_reedsolomon_ReedSolomon.h ../jni/ReedSolomon.h
+cd ../jni

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?>
+
+<cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="org.eclipse.cdt.msvc.dll.debug.286643528">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="org.eclipse.cdt.msvc.dll.debug.286643528" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+				<externalSettings>
+					<externalSetting>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="includePath" name="/JErasure"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/JErasure/Debug"/>
+						<entry flags="RESOLVED" kind="libraryFile" name="JErasure"/>
+					</externalSetting>
+				</externalSettings>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.VCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="dll" artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.sharedLib" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug,org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.sharedLib" description="" id="org.eclipse.cdt.msvc.dll.debug.286643528" name="Debug" parent="org.eclipse.cdt.msvc.dll.debug">
+					<folderInfo id="org.eclipse.cdt.msvc.dll.debug.286643528." name="/" resourcePath="">
+						<toolChain id="org.eclipse.cdt.msvc.toolchain.dll.debug.243495540" name="Microsoft Visual C++" superClass="org.eclipse.cdt.msvc.toolchain.dll.debug">
+							<targetPlatform id="org.eclipse.cdt.msvc.targetPlatform.dll.debug.207384483" superClass="org.eclipse.cdt.msvc.targetPlatform.dll.debug"/>
+							<builder buildPath="${workspace_loc:/JErasure/Debug}" id="org.eclipse.cdt.msvc.builder.735094899" managedBuildOn="true" name="CDT Internal Builder.Debug" superClass="org.eclipse.cdt.msvc.builder"/>
+							<tool id="org.eclipse.cdt.msvc.cl.c.dll.debug.2017715552" name="C Compiler (cl)" superClass="org.eclipse.cdt.msvc.cl.c.dll.debug">
+								<option id="org.eclipse.cdt.msvc.cl.option.optimization.769921985" superClass="org.eclipse.cdt.msvc.cl.option.optimization" value="org.eclipse.cdt.msvc.cl.option.optimization.default" valueType="enumerated"/>
+								<option id="org.eclipse.cdt.msvc.cl.option.debugFormat.769126575" superClass="org.eclipse.cdt.msvc.cl.option.debugFormat" value="org.eclipse.cdt.msvc.cl.option.debugFormat.complete" valueType="enumerated"/>
+								<inputType id="org.eclipse.cdt.msvc.cl.inputType.c.1972636325" superClass="org.eclipse.cdt.msvc.cl.inputType.c"/>
+							</tool>
+							<tool id="org.eclipse.cdt.msvc.cl.dll.debug.46657756" name="C++ Compiler (cl)" superClass="org.eclipse.cdt.msvc.cl.dll.debug">
+								<option id="org.eclipse.cdt.msvc.cl.option.optimization.122804424" superClass="org.eclipse.cdt.msvc.cl.option.optimization" value="org.eclipse.cdt.msvc.cl.option.optimization.default" valueType="enumerated"/>
+								<option id="org.eclipse.cdt.msvc.cl.option.debugFormat.999235921" superClass="org.eclipse.cdt.msvc.cl.option.debugFormat" value="org.eclipse.cdt.msvc.cl.option.debugFormat.complete" valueType="enumerated"/>
+								<inputType id="org.eclipse.cdt.msvc.cl.inputType.1356954601" superClass="org.eclipse.cdt.msvc.cl.inputType"/>
+							</tool>
+							<tool id="org.eclipse.cdt.msvc.rc.dll.debug.1462452774" name="Resource Compiler (rc)" superClass="org.eclipse.cdt.msvc.rc.dll.debug">
+								<inputType id="org.eclipse.cdt.msvc.rc.inputType.2020348919" superClass="org.eclipse.cdt.msvc.rc.inputType"/>
+							</tool>
+							<tool id="org.eclipse.cdt.msvc.link.dll.debug.1567355982" name="Linker (link)" superClass="org.eclipse.cdt.msvc.link.dll.debug">
+								<option defaultValue="true" id="org.eclipse.cdt.msvc.link.option.dll.1745723049" superClass="org.eclipse.cdt.msvc.link.option.dll" valueType="boolean"/>
+								<option id="org.eclipse.cdt.msvc.link.option.debug.1511002552" superClass="org.eclipse.cdt.msvc.link.option.debug" value="true" valueType="boolean"/>
+								<inputType id="org.eclipse.cdt.msvc.link.inputType.1018910626" superClass="org.eclipse.cdt.msvc.link.inputType"/>
+							</tool>
+							<tool id="org.eclipse.cdt.msvc.lib.1878327555" name="Library Manager (lib)" superClass="org.eclipse.cdt.msvc.lib"/>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="org.eclipse.cdt.msvc.dll.release.1979251498">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="org.eclipse.cdt.msvc.dll.release.1979251498" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings>
+					<externalSetting>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="includePath" name="/JErasure"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/JErasure/Release"/>
+						<entry flags="RESOLVED" kind="libraryFile" name="JErasure"/>
+					</externalSetting>
+				</externalSettings>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.VCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="dll" artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.sharedLib" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release,org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.sharedLib" description="" id="org.eclipse.cdt.msvc.dll.release.1979251498" name="Release" parent="org.eclipse.cdt.msvc.dll.release">
+					<folderInfo id="org.eclipse.cdt.msvc.dll.release.1979251498." name="/" resourcePath="">
+						<toolChain id="org.eclipse.cdt.msvc.toolchain.dll.release.816681793" name="Microsoft Visual C++" superClass="org.eclipse.cdt.msvc.toolchain.dll.release">
+							<targetPlatform id="org.eclipse.cdt.msvc.targetPlatform.dll.release.1845297130" superClass="org.eclipse.cdt.msvc.targetPlatform.dll.release"/>
+							<builder buildPath="${workspace_loc:/JErasure/Release}" id="org.eclipse.cdt.msvc.builder.564787447" managedBuildOn="true" name="CDT Internal Builder.Release" superClass="org.eclipse.cdt.msvc.builder"/>
+							<tool id="org.eclipse.cdt.msvc.cl.c.dll.release.631666665" name="C Compiler (cl)" superClass="org.eclipse.cdt.msvc.cl.c.dll.release">
+								<option id="org.eclipse.cdt.msvc.cl.option.optimization.1058812851" superClass="org.eclipse.cdt.msvc.cl.option.optimization"/>
+								<option id="org.eclipse.cdt.msvc.cl.option.debugFormat.1474448769" superClass="org.eclipse.cdt.msvc.cl.option.debugFormat"/>
+							</tool>
+							<tool id="org.eclipse.cdt.msvc.cl.dll.release.160528103" name="C++ Compiler (cl)" superClass="org.eclipse.cdt.msvc.cl.dll.release">
+								<option id="org.eclipse.cdt.msvc.cl.option.optimization.93992996" superClass="org.eclipse.cdt.msvc.cl.option.optimization"/>
+								<option id="org.eclipse.cdt.msvc.cl.option.debugFormat.1826309345" superClass="org.eclipse.cdt.msvc.cl.option.debugFormat"/>
+							</tool>
+							<tool id="org.eclipse.cdt.msvc.rc.dll.release.1892964387" name="Resource Compiler (rc)" superClass="org.eclipse.cdt.msvc.rc.dll.release"/>
+							<tool id="org.eclipse.cdt.msvc.link.dll.release.762265299" name="Linker (link)" superClass="org.eclipse.cdt.msvc.link.dll.release">
+								<option defaultValue="true" id="org.eclipse.cdt.msvc.link.option.dll.1729085149" superClass="org.eclipse.cdt.msvc.link.option.dll" valueType="boolean"/>
+							</tool>
+							<tool id="org.eclipse.cdt.msvc.lib.1287930557" name="Library Manager (lib)" superClass="org.eclipse.cdt.msvc.lib"/>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="JErasure.org.eclipse.cdt.msvc.projectType.dll.1388207959" name="Shared Library" projectType="org.eclipse.cdt.msvc.projectType.dll"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="org.eclipse.cdt.msvc.dll.debug.286643528;org.eclipse.cdt.msvc.dll.debug.286643528.;org.eclipse.cdt.msvc.cl.dll.debug.46657756;org.eclipse.cdt.msvc.cl.inputType.1356954601">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.msw.build.clScannerInfo"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="org.eclipse.cdt.msvc.dll.debug.286643528;org.eclipse.cdt.msvc.dll.debug.286643528.;org.eclipse.cdt.msvc.cl.c.dll.debug.2017715552;org.eclipse.cdt.msvc.cl.inputType.c.1972636325">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.msw.build.clScannerInfo"/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+</cproject>

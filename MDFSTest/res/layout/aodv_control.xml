@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:layout_marginTop="5dp" android:layout_marginBottom="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:text="RREQ" android:textSize="16sp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp" />
+
+        <EditText
+            android:id="@+id/destIpTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:layout_gravity="center_vertical"
+            android:inputType="text" android:lines="1">
+
+        </EditText>
+
+        <Button
+            android:id="@+id/rreqBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp"
+            android:text="Send" />
+        
+    </LinearLayout>
+   
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:layout_marginTop="5dp" android:layout_marginBottom="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:text="Topology Discovery" android:textSize="16sp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp" />
+
+
+        <Button
+            android:id="@+id/routeDiscBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp"
+            android:text="Discover" />
+        
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:layout_marginTop="5dp" android:layout_marginBottom="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:text="Send NodeInfo to" android:textSize="16sp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp" />
+		
+        <EditText
+            android:id="@+id/testFileDestIP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:layout_gravity="center_vertical"
+            android:inputType="text" android:lines="1">
+        </EditText>
+        
+        <Button
+            android:id="@+id/SendFilesBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp"
+            android:text="Send" />
+        
+    </LinearLayout>
+    
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:layout_marginTop="5dp" android:layout_marginBottom="5dp">
+
+        <Button
+            android:id="@+id/pictureBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp"
+            android:text="Take Picture" />
+        
+        <Button
+            android:id="@+id/videoBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp"
+            android:text="Take Video" />
+        
+        <Button
+            android:id="@+id/selectBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp"
+            android:text="Select" />
+        
+        <Button
+            android:id="@+id/viewBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp"
+            android:text="View" />
+        
+    </LinearLayout>
+
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:layout_marginTop="5dp" android:layout_marginBottom="5dp">
+
+        <Button
+            android:id="@+id/deleteAllBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp"
+            android:text="Delete All" />
+        
+    </LinearLayout>
+    
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:visibility="invisible"/>
+
+</LinearLayout>

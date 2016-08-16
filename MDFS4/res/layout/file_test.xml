@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:layout_marginTop="5dp" android:layout_marginBottom="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:text="Distribute File:" android:textSize="20sp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp" />
+
+        <Button
+            android:id="@+id/aesEncryptBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp"
+            android:text="Encrypt" />
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:layout_marginTop="5dp" android:layout_marginBottom="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:text="Retrieve:" android:textSize="20sp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp" />
+
+        <EditText
+            android:id="@+id/fileET"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.3">
+            <requestFocus />
+        </EditText>
+        
+         <Button
+            android:id="@+id/aesDecryptBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp"
+            android:text="Decrypt" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:layout_marginTop="5dp" android:layout_marginBottom="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:text="Delete File" android:textSize="20sp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp" />
+
+		 <EditText
+            android:id="@+id/deleteET"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.3">
+        </EditText>
+        
+        <Button
+            android:id="@+id/splitSecretBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp"
+            android:text="Delete" />
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:layout_marginTop="5dp" android:layout_marginBottom="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:text="Broadcast Directory" android:textSize="20sp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp" />
+
+        <Button
+            android:id="@+id/rsEncodeBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp"
+            android:text="Broadcast" />
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:layout_marginTop="5dp" android:layout_marginBottom="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:text="Clear Cache" android:textSize="20sp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp" />
+
+        <Button
+            android:id="@+id/clearCacheBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp"
+            android:text="Clear" />
+        
+    </LinearLayout>
+	
+    <EditText
+        android:id="@+id/messageET"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:ems="10"  android:inputType="none" android:visibility="gone"
+        android:editable="false" android:textSize="18sp" android:gravity="top" />
+    
+    <TextView
+        android:id="@+id/messageTV"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingLeft="5dp" android:text=""
+        android:textColor="@color/bright_blue" android:paddingRight="5dp"
+        android:textSize="15sp" android:gravity="center_vertical"/>
+</LinearLayout>

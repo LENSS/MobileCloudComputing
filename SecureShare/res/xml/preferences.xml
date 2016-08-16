@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  
+	<PreferenceCategory android:title="Directory Service Server">
+		<EditTextPreference 
+			android:key="ds_server"
+			android:title="Directory Service Server" 
+			android:summary="Set to IP of directory service" android:defaultValue="not set" 
+			android:digits="0123456789." />
+	</PreferenceCategory>
+
+	<PreferenceCategory android:title="MDFS Parameters">
+		<EditTextPreference 
+			android:key="n_value"
+			android:title="Number of Fragments (n)"
+			android:defaultValue="7" 
+			android:summary="The number of fragments that will be generated" 
+			android:numeric="integer"
+    		android:maxLength="2" />
+		<EditTextPreference 
+			android:key="k_value"
+			android:title="Threshold Value (k)"
+			android:defaultValue="4" 
+			android:summary="The number of fragments necessary to recover" 
+			android:numeric="integer"
+    		android:maxLength="2"/>
+	</PreferenceCategory>
+</PreferenceScreen>

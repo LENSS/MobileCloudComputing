@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="edu.nps.secureshare.android"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <application android:label="@string/app_name" android:debuggable="true" android:icon="@drawable/secure_share_logo">
+        <activity android:name=".SecureShareMenuActivity"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SecureShareActivity"></activity>
+		<activity android:name=".SecureShareReadActivity"></activity>
+		<activity android:name=".SecureShareHelpActivity"></activity>
+		<activity android:name=".SecureShareSettingsActivity"></activity>
+		<activity android:name=".SecureShareWriteActivity"></activity>
+		<activity android:name=".SecureShareSelectImageActivity"></activity>
+		<activity android:name=".SecureShareDownloadsActivity"></activity>
+		
+		<service android:name=".services.NetworkServerService"
+				 android:enabled="true">
+			<intent-filter>
+				<action android:name=
+					"edu.nps.secureshare.android.services.NetworkServerService.SERVICE" />
+		    </intent-filter>
+		</service>
+		
+		<receiver android:name=".broadcastreceivers.SecureShareStartupIntentReceiver">
+			<intent-filter>
+				<action android:name="android.intent.action.BOOT_COMPLETED" />
+				<category android:name="android.intent.category.HOME" />
+			</intent-filter>
+		</receiver>
+		
+</application>
+    <uses-sdk android:minSdkVersion="8" />
+<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"></uses-permission>
+<uses-permission android:name="android.permission.CHANGE_WIFI_STATE"></uses-permission>
+
+
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+</manifest> 

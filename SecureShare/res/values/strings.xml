@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Secure Share</string>
+	<string name="read">Available Files</string>
+	<string name="write">Send File</string>
+	<string name="settings">Settings</string>
+	<string name="help">Help</string>
+	<string name="menu_title">Main Menu</string>
+	<string name="write_title">Choose a File</string>
+	<string name="read_menu_item">Download a File</string>
+	<string name="write_menu_item">Upload a File</string>
+	<string name="settings_menu_item">Program Settings</string>
+	<string name="help_menu_item">Help</string>
+	<string name="file_write_service_started">File write service started</string>
+	<string name="file_write_service_stopped">File write service stopped</string>
+	
+<string name="select_image_menu_item">Select Image</string>
+<string name="read_title">Choose a File to Recover</string>
+<string name="download_menu_item">View Downloaded Files</string>
+<string name="downloads_title">Downloaded Files</string>
+<string name="download_directory">downloads</string>
+<string name="fragment_directory">fragments</string>
+</resources>
